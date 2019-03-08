@@ -49,11 +49,89 @@
         alt="logo" />
     </div>
 
-    <div
-      id="infoBox"
-      class="title">
-      <p>Insert title here</p>
-    </div>
+    <h1>LynxChan, the best engine you will ever shitpost with.</h1>
+    Welcome to the live demo of LynxChan. This site is meant to let people
+    explore the engine and experiment it in an actual deploy with all its
+    features enabled.
+    <br>
+    <h3>Why would I adopt LynxChan?</h3>
+    <ul>
+      <li>A runtime 30x faster than PHP</li>
+      <li>Flexibility for both chans with or without user-owned boards</li>
+      <li>Disk space and bandwidth savings due to file deduplication</li>
+      <li>Over 50 settings that allow you to customize the engine behavior
+      </li>
+      <li>A modular front-end that uses pure HTML templates, making visual
+        customization as easy as it gets</li>
+      <li>A database that easily allows sysadmins to add more db servers to
+        the stack</li>
+      <li>Memcache for files, reducing disk usage</li>
+      <li>More features than any other available engine</li>
+      <li>Specs completely documented</li>
+      <li>Json api for every feature or data</li>
+      <li>Does not require external javascript</li>
+      <li>Does not require users to run javascript</li>
+      <li>Improved anti-spam tools provided as first-party add-ons.</li>
+    </ul>
+    <h3>Technologies</h3>
+    LynxChan uses Node.js as a runtime environment and Mongodb as a database. It
+    is meant to focus on high levels of concurrency and performance.
+    <br>
+    <br>
+    The templates used are nothing but pure HTML, reducing development overhead.
+    It also uses a modular approach to templates, allowing for ease of
+    migration. It is possible to change all the templates with a single setting
+    in the server configuration.
+    <h3>Purpose</h3>
+    I have noticed that many chans struggle with hosting costs. In my opinion,
+    that is a very real obstacle for hosting a chan. So I have developed an
+    engine from scratch that is meant to enable more people to host their chans.
+    <br>
+    <br>
+    I believe that chans are one of the last kind of sites where people still
+    have freedom of speech in the internet, away from centralized corporative
+    control, so I see the existence of chans as something important for the
+    future of the internet as a whole. Serious business.
+    <br>
+    <br>
+    This site is not meant to build a community, so any kind of content that
+    might cause issues with my host will be deleted and the user banned, <b>even
+      if I agree with said content.</b>
+    <br>
+    Sorry for that, but I just want to avoid any issues while I am just trying
+    to let people know about this project.
+    <br>
+    Maybe in the future I will put myself on the line for freedom of speech like
+    <a
+      href="http://8chan.co"
+      target="blank">hotwheels</a>
+    did, but not today.
+    <h3>Goals</h3>
+    1. Support users not using javascript for the basic functions.
+    <br>
+    2. Provide every functionality through a json based RPC.
+    <br>
+    3. Support the most amount of users with the least hardware power.
+    <br>
+    4. Having a modular front-end so people can easily create and use different
+    templates.
+    <h3>Source code</h3>
+    This project uses the MIT license and respects your 4 software freedoms.
+    <br>
+    You can get the source code at
+    <a
+      href="https://gitgud.io/LynxChan/LynxChan"
+      target="blank">GitGud</a>
+    . The templates being used here are just placeholders and can be found
+    <a
+      href="https://gitgud.io/LynxChan/LynxChanFront-Placeholder"
+      target="blank">here</a>
+    .
+    <br>
+    You can find a roadmap of future and current development at
+    <a
+      href="https://trello.com/b/JAN7N3OO/lynxchan"
+      target="blank">Trello</a>
 
     <div
       id="divBoards"
@@ -93,11 +171,6 @@
         id="linkLinks">links</a>
       <span>/</span>
       <a
-        href="/.static/pages/about.html"
-        class="coloredIcon"
-        id="linkAbout">about</a>
-      <span>/</span>
-      <a
         href="/.static/pages/contact.html"
         class="coloredIcon"
         id="linkContact">contact</a>
@@ -124,10 +197,6 @@
     </div>
 
   </div>
-
-  <footer>
-    <span>Insert footer here</span>
-  </footer>
 
 </body>
 

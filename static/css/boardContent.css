@@ -64,12 +64,6 @@
   margin: 1em auto;
 }
 
-#postingForm input:focus, #postingForm textarea:focus,
-  .modalDecorationPanel input[type='text']:focus, #settingsMenu input[type='text']:focus,
-  #settingsMenu textarea:focus {
-  box-shadow: 0px 0px 5px 2px #117743;
-}
-
 #postingForm button, #qrbutton {
   width: 8em;
   margin: 0.5em auto;
@@ -96,9 +90,8 @@
   padding-right: 5px;
   font-size: 10pt;
   cursor: default;
-  border: 1px solid #117743;
-  border-radius: 5px;
-  background: #282A2E;
+  border: 1px solid #000;
+  background: #D6DAF0;
 }
 
 input[type=checkbox].postingCheckbox {
@@ -109,7 +102,7 @@ input[type=checkbox].postingCheckbox+label:before {
   font-family: Icons;
   content: "\e0db";
   margin-right: 0.5em;
-  color: #117743;
+  color: #000;
   display: inline-block;
   cursor: pointer;
 }

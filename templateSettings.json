@@ -4,7 +4,6 @@
     "postingTable": "content/postingForm.html"
   },
   "templated": [
-    "pages/about.html",
     "pages/contact.html",
     "pages/globalRules.html",
     "pages/links.html",
