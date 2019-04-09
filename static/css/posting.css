@@ -37,8 +37,6 @@
 }
 
 .unhideButton, .embedButton {
-  cursor: pointer;
-  color: #FFB300;
   font-size: 80%;
 }
 
