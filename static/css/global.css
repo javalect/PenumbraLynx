@@ -85,9 +85,9 @@ hr {
   border-color: #000;
 }
 
-.coloredIcon {
+.coloredIcon, .unhideButton, .embedButton {
   color: #000;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .coloredIcon::before {
