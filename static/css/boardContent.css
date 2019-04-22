@@ -11,6 +11,10 @@
   cursor: default;
 }
 
+.bannerImage {
+  max-width: 100%;
+}
+
 .dropzone {
   cursor: pointer;
   transition: all 0.2s ease 0s;
@@ -158,4 +162,9 @@ input[type=checkbox].postingCheckbox:checked+label:before {
 
 .checkedFavouriteButton:before {
   color: #FFB300;
+
+@media only screen and (max-device-width: 812px) {
+  .boardHeader p#labelDescription {
+    display: none;
+  }
 }
