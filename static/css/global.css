@@ -447,8 +447,8 @@ footer {
 }
 
 @media only screen and (max-device-width: 812px) {
-  #navLinkSpan span, #navOptionsSpan span, legend, #settingsButton, #links span, .hideMobile
-    {
+  #navLinkSpan span, #navOptionsSpan span, legend, #settingsButton, #links span,
+    .hideMobile {
     display: none;
   }
   #navLinkSpan a::after, #navOptionsSpan a::after, #links a::after {
@@ -465,6 +465,9 @@ footer {
   .logoImg {
     margin-top: 10px;
     height: 75px;
+  }
+  input, select, textarea {
+    font-size: 100%;
   }
   body {
     font-size: 85%;

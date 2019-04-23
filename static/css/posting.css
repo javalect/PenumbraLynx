@@ -294,6 +294,10 @@ video {
   content: '(Hide file)';
 }
 
+.hiddenFile::after {
+  content: '(Show file)';
+}
+
 @media only screen and (max-device-width: 812px) {
   .uploadCell img:not(.imgExpanded) {
     max-width: 75px;
@@ -319,7 +323,7 @@ video {
     width: 100%;
   }
   .postInfo {
-    border-bottom: 1px solid #117743;
+    border-bottom: 1px solid #000;
   }
   .divPosts {
     margin: .25em;
@@ -329,6 +333,9 @@ video {
   }
   .hideFileButton::after {
     content: '(Hide)';
+  }
+  .hiddenFile::after {
+    content: '(Show)';
   }
   .originalNameLink, .labelCreated, .sizeLabel, .dimensionLabel {
     display: none;
