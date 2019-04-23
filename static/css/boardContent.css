@@ -86,9 +86,8 @@
   font-weight: bold;
   text-align: left;
   width: 100px;
-  padding-left: 5px;
-  padding-right: 5px;
-  font-size: 10pt;
+  font-size: 80%;
+  padding-left: 0.1em;
   cursor: default;
   border: 1px solid #000;
   background: #D6DAF0;
@@ -166,6 +165,7 @@ input[type=checkbox].postingCheckbox:checked+label:before {
 
 .checkedFavouriteButton:before {
   color: #FFB300;
+}
 
 @media only screen and (max-device-width: 812px) {
   .boardHeader p#labelDescription {
@@ -173,5 +173,17 @@ input[type=checkbox].postingCheckbox:checked+label:before {
   }
   #fieldMessage {
     width: 100%;
+  }
+  .reportFieldset {
+    padding: 0;
+  }
+  #newPostFieldset {
+    width: unset;
+    padding: 0;
+    border: unset;
+  }
+  #postingForm th {
+    font-size: 80%;
+    width: 60px;
   }
 }
