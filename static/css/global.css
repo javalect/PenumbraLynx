@@ -85,7 +85,7 @@ hr {
   border-color: #000;
 }
 
-.coloredIcon, .unhideButton, .embedButton {
+.coloredIcon, .unhideButton, .embedButton, #showFormsButton {
   color: #000;
   cursor: pointer;
 }
