@@ -14,12 +14,27 @@
   color: #ffffff;
 }
 
+.theme_clear .topBoards a, .theme_clear #divLatestImages img,
+  .theme_clear #divLatestPosts .latestPostCell, .theme_clear .innerPost,
+  .theme_clear .sideCatalogCell, .theme_clear .markedPost, .theme_clear .sideCatalogMarkedCell,
+  .theme_clear .catalogCell {
+  background-color: #dddddd
+}
+
 .floatingMenu, #quick-reply table {
   background: #EEF2FF;
 }
 
+.theme_clear .floatingMenu, .theme_clear #quick-reply table {
+  background: #cccccc;
+}
+
 .markedPost, .sideCatalogMarkedCell {
   background-color: #D6BAD0;
+}
+
+.theme_clear .markedPost, .theme_clear .sideCatalogMarkedCell {
+  background: #868686;
 }
 
 #divLatestPosts .latestPostCell, .innerPost, .sideCatalogCell,
@@ -90,6 +105,12 @@ hr {
   cursor: pointer;
 }
 
+.theme_clear a, .theme_clear .coloredIcon, .theme_clear .unhideButton,
+  .theme_clear .embedButton, .theme_clear .checkedFavouriteButton:before,
+  .theme_clear #selectedTab, .theme_clear #showFormsButton {
+  color: #000;
+}
+
 .coloredIcon::before {
   font-family: 'Icons';
 }
@@ -119,6 +140,11 @@ input, select, textarea {
   border: 1px solid #07371F;
 }
 
+.theme_clear input, .theme_clear select, .theme_clear textarea {
+  background: #dddddd;
+  color: #000;
+}
+
 input[type=button], input[type=submit], button, .dropzone, .selectedCell
   {
   border: 1px solid #07371F;
@@ -128,6 +154,13 @@ input[type=button], input[type=submit], button, .dropzone, .selectedCell
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   cursor: pointer;
+}
+
+.theme_clear input[type=button], .theme_clear input[type=submit],
+  .theme_clear button, .theme_clear .dropzone, .theme_clear .selectedCell
+  {
+  background: #a7a7a7;
+  color: #000;
 }
 
 .fileBrowser {
@@ -155,6 +188,11 @@ body {
   margin: 0px;
 }
 
+body.theme_clear {
+  background-color: #cccccc;
+  color: #000
+}
+
 /* header and nav / top of page styles */
 header {
   margin: 3em auto 0 auto;
@@ -172,6 +210,10 @@ nav {
   font-size: 70%;
   text-align: center;
   z-index: 1;
+}
+
+.theme_clear nav {
+  background-color: #acacac
 }
 
 nav span, nav a {
