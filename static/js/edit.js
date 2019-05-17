@@ -2,7 +2,7 @@ var edit = {};
 
 edit.init = function() {
 
-  api.convertButton('saveFormButton', edit.save, 'editField');
+  api.convertButton('saveFormButton', edit.save);
 
   edit.messageLimit = +document.getElementById('labelMessageLength').innerHTML;
   api.boardUri = document.getElementById('boardIdentifier').value;
@@ -38,7 +38,7 @@ edit.save = function() {
       subject : typedSubject
     };
 
-    if (edit.postId) {
+    if (api.postId) {
       parameters.postId = api.postId;
     } else {
       parameters.threadId = api.threadId;
