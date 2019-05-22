@@ -2,7 +2,9 @@ var api = {};
 
 api.htmlReplaceTable = {
   '<' : '&lt;',
-  '>' : '&gt;'
+  '>' : '&gt;',
+  '\"' : '&quot;',
+  '\'' : '&apos;'
 };
 
 api.removeIndicator = function(className, thread) {
