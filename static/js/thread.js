@@ -224,7 +224,7 @@ thread.markPost = function(id) {
 thread.processPostingQuote = function(link) {
 
   link.onclick = function() {
-    qr.showQr(link, link.href.match(/#q(\d+)/)[1]);
+    qr.showQr(link.href.match(/#q(\d+)/)[1]);
   };
 
 };
