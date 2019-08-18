@@ -310,7 +310,7 @@ span.spoiler {
 }
 
 .spoiler:hover {
-  color: #ACACAC;
+  color: #000;
   background: none;
 }
 
