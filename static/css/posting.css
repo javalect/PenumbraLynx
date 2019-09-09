@@ -147,6 +147,7 @@ code br {
 }
 
 .divMessage {
+  overflow: hidden;
   margin: 1em 1em 1em 3em;
   word-wrap: break-word;
 }
