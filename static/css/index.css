@@ -10,6 +10,14 @@
   text-align: center;
 }
 
+#infoBox {
+  text-align: center;
+  width: 100%;
+  padding: 0.5em;
+  margin: 1em auto 2em;
+  font-size: 120%;
+}
+
 #links, #divStats {
   padding: 0.5em;
   font-size: 75%;
@@ -20,12 +28,12 @@
   text-decoration: none;
 }
 
-#linkLogs:before {
+#linkGlobalLogs:before {
   content: "\e069";
 }
 
 #linkArchives:before {
-  content: "\e023";
+  content: "\e021";
 }
 
 #linkGraphs:before {
@@ -37,11 +45,11 @@
 }
 
 #linkGlobalRules:before {
-  content: "\e0c9";
+  content: "\e06f";
 }
 
 #linkAbout:before {
-  content: "\e06c";
+  content: "\e0b0";
 }
 
 #linkEngine:before {
@@ -49,7 +57,7 @@
 }
 
 #linkLinks:before {
-  content: "\e06a";
+  content: "\e086";
 }
 
 #linkContact:before {

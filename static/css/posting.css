@@ -17,10 +17,6 @@ code {
   white-space: pre;
 }
 
-code br {
-  display: none;
-}
-
 .imgLink, #selectedDivQr .selectedCell, #selectedDiv .selectedCell {
   float: left;
 }
@@ -83,7 +79,7 @@ code br {
 }
 
 .postInfo, .opHead, .divMessage, .panelUploads, .panelIp, .panelProxyIp,
-  .contentOmissionIndicator, .labelOmission, .labelId {
+  .contentOmissionIndicator, .labelOmission, .labelId, .panelASN {
   font-size: 80%;
 }
 
@@ -148,12 +144,8 @@ code br {
 
 .divMessage {
   margin: 1em 1em 1em 3em;
+  white-space: pre-wrap;
   word-wrap: break-word;
-}
-
-.multipleUploads .innerPost .divMessage, .multipleUploads .markedPost .divMessage
-  {
-  clear: both;
 }
 
 .divBanMessage {
@@ -187,7 +179,7 @@ code br {
   object-fit: contain;
 }
 
-.multipleUploads .opUploadPanel, .multipleUploads .panelUploads {
+.multipleUploads {
   float: left;
   width: 100%;
 }
@@ -322,8 +314,8 @@ code br {
     max-height: 75px;
     object-fit: cover;
   }
-  .multipleUploads .opUploadPanel, .multipleUploads .panelUploads {
-    display: inline-flex;
+  .multipleUploads {
+    display: block;
   }
   .postInfo, .opHead, .divMessage, .panelUploads, .panelIp, .panelProxyIp,
     .contentOmissionIndicator, .labelOmission, .labelId {
