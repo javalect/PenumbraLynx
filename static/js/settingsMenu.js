@@ -3,7 +3,7 @@ var settingsMenu = {};
 settingsMenu.init = function() {
 
   settingsMenu.loadedFilters = JSON.parse(localStorage.filterData || '[]');
-  settingsMenu.filterTypes = [ 'Name', 'Tripcode', 'Subject', 'Message' ];
+  settingsMenu.filterTypes = [ 'Name', 'Tripcode', 'Subject', 'Message', 'Id' ];
 
   var settingsMenuDiv = document.createElement('div');
 
@@ -201,11 +201,13 @@ settingsMenu.getFiltersContent = function() {
 
   var newFilterTypeCombo = document.createElement('select');
 
-  for (var i = 0; i < settingsMenu.filterTypes.length; i++) {
+  for (var i = 0; i < 4; i++) {
+
     var option = document.createElement('option');
     option.innerHTML = settingsMenu.filterTypes[i];
     newFilterTypeCombo.appendChild(option);
   }
+
   newFilterPanel.appendChild(newFilterTypeCombo);
 
   var newFilterField = document.createElement('input');
