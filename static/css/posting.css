@@ -51,7 +51,7 @@ code br {
   display: none
 }
 
-#formMore, #qrFormMore, #qrCaptchaButton {
+#formMore, #qrFormMore, #qrCaptchaButton, #qrFilesButton {
   cursor: pointer;
 }
 
