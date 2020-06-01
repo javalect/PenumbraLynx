@@ -276,6 +276,7 @@ video {
 
 .unhideButton {
   clear: left;
+  display: block;
 }
 
 /*Actions form*/
