@@ -96,6 +96,25 @@
 
       </form>
 
+      <div id="divBlockNewBypasses">
+        <hr />
+        <form 
+          action="/addon.js/blockNewBypasses"
+          enctype="multipart/form-data"
+          method="post">
+          <label>
+            <input
+              type="checkbox"
+              id="checkboxBlockNewBypasses"
+              name="disableNewBypasses">
+            Disable new blockbypasses
+          </label>
+          <button
+          type="submit"
+          id="saveFormButton">Save</button>
+        </form>
+      </div>
+
       <div id="divStaff">
         <hr />
         <h3>Global staff</h3>
