@@ -32,8 +32,8 @@
   content: "\e069";
 }
 
-#linkArchives:before {
-  content: "\e021";
+#linkArchives {
+  visibility: hidden;
 }
 
 #linkGraphs:before {
@@ -48,12 +48,12 @@
   content: "\e06f";
 }
 
-#linkAbout:before {
-  content: "\e0b0";
+#linkAbout {
+  visibility: hidden;
 }
 
-#linkEngine:before {
-  content: "\e064";
+#linkEngine {
+  visibility: hidden;
 }
 
 #linkLinks:before {
