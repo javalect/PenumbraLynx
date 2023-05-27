@@ -71,13 +71,13 @@
 .theme_cyber #divLatestPosts .latestPostCell, .theme_cyber .innerPost,
   .theme_cyber .sideCatalogCell, .theme_cyber .markedPost, .theme_cyber .sideCatalogMarkedCell,
   .theme_cyber .catalogCell {
-  border: 1px solid #117743;
+  border: 1px solid #4978A7;
 }
 
 .theme_cyber #newPostFieldset, .theme_cyber #quick-reply table,
   .theme_cyber .modalDecorationPanel, .theme_cyber .floatingMenu,
   .theme_cyber #settingsFieldset, .theme_cyber .reportFieldset {
-  border: 1px dashed #117743;
+  border: 1px dashed #4978A7;
 }
 
 .theme_clear #newPostFieldset, .theme_clear #quick-reply table,
@@ -138,7 +138,7 @@ hr {
 }
 
 .theme_cyber hr {
-  border-color: #117743;
+  border-color: #4978A7;
 }
 
 .theme_clear hr {
@@ -192,7 +192,7 @@ a {
 }
 
 .theme_cyber a:hover, .theme_cyber .glowOnHover:hover {
-  text-shadow: 0px 0px 5px #117743;
+  text-shadow: 0px 0px 5px #4978A7;
 }
 
 u {
