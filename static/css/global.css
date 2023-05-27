@@ -157,7 +157,7 @@ a, .coloredIcon, .unhideButton, .embedButton, #selectedTab,
 
 .theme_cyber a, .theme_cyber .coloredIcon, .theme_cyber .unhideButton,
   .theme_cyber .embedButton, .theme_cyber #selectedTab, .theme_cyber #showFormsButton {
-  color: #FFB300;
+  color: #99BADB;
   text-decoration: none;
 }
 
@@ -166,7 +166,7 @@ a:hover, .intro a.post_no:hover {
 }
 
 .theme_cyber a:hover, .theme_cyber .intro a.post_no:hover {
-  color: #FFB300;
+  color: #99BADB;
 }
 
 .theme_clear a, .theme_clear .coloredIcon, .theme_clear .unhideButton,
