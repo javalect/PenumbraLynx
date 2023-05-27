@@ -124,7 +124,7 @@ video {
 }
 
 .theme_cyber .noEmailName, .noEmailName:hover {
-  color: #117743;
+  color: #4978A7;
 }
 
 .theme_clear .noEmailName, .noEmailName:hover {
@@ -434,7 +434,7 @@ video {
   .theme_cyber .modalDecorationPanel input[type='text']:focus,
   .theme_cyber #settingsMenu input[type='text']:focus, .theme_cyber #settingsMenu textarea:focus
   {
-  box-shadow: 0px 0px 5px 2px #117743;
+  box-shadow: 0px 0px 5px 2px #4978A7;
 }
 
 @media only screen and (max-width: 812px) {
