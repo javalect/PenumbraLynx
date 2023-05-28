@@ -212,7 +212,7 @@ video {
 
 /*Change the dimensions if you wish for larger thumbs*/
 .uploadCell img:not(.imgExpanded) {
-  max-width: 125px;
+  max-width: 150px;
   object-fit: contain;
 }
 
