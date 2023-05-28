@@ -6,7 +6,7 @@
 }
 
 #linkLogs:before {
-  content: "\e069"
+  content: "Logs"
 }
 
 #linkPrevious, #linkNext {
