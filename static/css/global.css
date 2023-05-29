@@ -230,7 +230,7 @@ input, select, textarea {
   background: #282A2E;
   border-radius: 5px;
   color: #ACACAC;
-  border: 1px double #07371F;
+  border: 1px double #32728F;
 }
 
 .dropzone, .selectedCell {
@@ -256,7 +256,7 @@ input[type=button], input[type=submit], button, .selectedCell {
 .theme_cyber input[type=button], .theme_cyber input[type=submit],
   .theme_cyber button, .theme_cyber .dropzone, .theme_cyber .selectedCell
   {
-  border: 3px double #07371F;
+  border: 3px double #32728F;;
   border-radius: 5px;
   background: #16171A;
   color: #ACACAC;
