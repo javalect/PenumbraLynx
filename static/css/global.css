@@ -406,15 +406,15 @@ nav span, nav a {
 }
 
 #linkRss:before {
-  content: "\e0b7";
+  content: "RSS";
 }
 
 #linkTop:before {
-  content: "\e012";
+  content: "Top";
 }
 
 #linkBottom:before {
-  content: "\e00f";
+  content: "Bottom";
 }
 
 #linkBack:before {
