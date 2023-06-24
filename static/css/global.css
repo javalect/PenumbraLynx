@@ -226,7 +226,6 @@ input, select, textarea {
 }
 
 .theme_cyber input, .theme_cyber select, .theme_cyber textarea {
-  font-family: 'Hack', monospace, sans-serif;
   background: #282A2E;
   border-radius: 5px;
   color: #ACACAC;
@@ -261,7 +260,6 @@ input[type=button], input[type=submit], button, .selectedCell {
   background: #16171A;
   color: #ACACAC;
   padding-left: 0.25em;
-  font-family: 'Hack', monospace, sans-serif;
   font-size: 80%;
   font-weight: bold;
   margin-top: 0.5em;
@@ -328,7 +326,6 @@ body {
 
 body.theme_cyber {
   color: #B5B5B5;
-  font-family: 'Hack', monospace, sans-serif;
   background: #1D1F21;
 }
 
